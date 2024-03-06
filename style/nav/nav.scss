@@ -1,0 +1,46 @@
+nav{
+    width: 100%;
+    padding: 30px 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    strong{
+        font-size: 25px;
+    }
+    li{
+        display: flex;
+        gap: 40px;
+        a{
+            color: #000;
+        }
+    }
+}
+
+@media (max-width: 448px) {
+    nav{
+        padding: 10px 30px;
+        strong{
+            font-size: 10px;
+        }
+        li{
+            gap: 10px;
+            font-size: 7px;
+        }
+    }
+}
+@media (min-width: 449px) and (max-width:768px) {
+    nav{
+        padding: 17px 80px;
+        strong{
+            font-size: 15px;
+        }
+        li{
+            gap: 20px;
+        }
+    }
+}   
+@media (min-width:769px) and (max-width:1200px) {
+    nav{
+        padding: 25px 150px;
+    }
+}   
